@@ -8,7 +8,7 @@ public class Pizza {
     private int paper;
     private boolean isBillCreated;
     private boolean isVeg;
-    private boolean isTakenAway ;
+    private boolean isTakenAway =true;
     private String bill;
 
     public Pizza(Boolean isVeg) {
