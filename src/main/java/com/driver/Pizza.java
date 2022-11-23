@@ -42,11 +42,11 @@ public class Pizza {
 
     public void addTakeaway(){
 
-        if(!isTakenAway)
+        if(isTakenAway)
         {
             this.paper += 20;
             this.price += 20;
-            isTakenAway = true;
+            isTakenAway = false;
         }
     }
 
